@@ -4,30 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="container">
-        <form id="loginForm" action="./login.php" method="POST">
-            <br><br><br><br>
-            <h2>Login</h2>
-            <div>
-                <label for="username">Username</label><br>
-                <img src="./images/username.png" alt=" username icon" width="20" height="20">
-                <input type="email" placeholder="Username" required="required">
-            </div>
-            <div>
-                <label for="Password">Password</label> <br>
-                <input type="password" placeholder="Password" required="required">
-                <img src="./images/password.jfif" alt=" password icon" width="20" height="20">
-            </div>
-            <div>
-                <br> <br>
-                <button type="submit">Login</button>
-                <p id="error" class="error"></p>
-            </div>
-        </form>          
-    </div>
-    <script src="script.js"></script>
-</body>
+    <body id="body" >
+            <center>
+                <br><br><br><br>
+                     <section id="sec1">
+                        <form id="loginForm" action="./login.php" method="POST">
+                         <h1>
+                            <br>
+                             USER LOGIN <br><br>
+                         </h1>
+                             <h1 id="input1">
+                                 <div id="div1">
+                                     <img src="./images/username.png" width="20" height="20">
+                                     <input type="email" placeholder="Username">
+                                 </div>
+                             </h1>
+                         <h1 id="input2">
+                             <div id="div2">
+                                 <input type="password" placeholder="Password">
+                             <img src="./images/password.jfif" width="20" height="20">
+                             </div>             
+                         </h1>
+                         <center>
+                            <h1>
+                                <div>
+                                    <br> <br>
+                                    <button type="submit">Login</button>
+                                    <p id="error" class="error"></p>
+                                </div>                  
+                            </h1>
+                         </center>
+                         </section>
+                         <br><br> <br> 
+                        </form>
+             </center>     
+        <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
+    </body>
 </html>
